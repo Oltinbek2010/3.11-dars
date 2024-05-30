@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>3-oy 11-dars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bs-dark-bg-subtle">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block my-1" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Docs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Icons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Themes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">                </form>
+                <nav class="nav">
+                    <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg" viewBox="0 0 512 499.36" role="img"><title>GitHub</title><path fill="currentColor" fill-rule="evenodd" d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"></path></svg></a>
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="navbar-nav-svg" viewBox="0 0 512 416.32" role="img"><title>Twitter</title><path fill="currentColor" d="M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92"></path></svg></a>
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" fill-rule="evenodd" class="navbar-nav-svg" viewBox="0 0 40 41" role="img"><title>Open Collective</title><path fill-opacity=".4" d="M32.8 21c0 2.4-.8 4.9-2 6.9l5.1 5.1c2.5-3.4 4.1-7.6 4.1-12 0-4.6-1.6-8.8-4-12.2L30.7 14c1.2 2 2 4.3 2 7z"></path><path d="M20 33.7a12.8 12.8 0 0 1 0-25.6c2.6 0 5 .7 7 2.1L32 5a20 20 0 1 0 .1 31.9l-5-5.2a13 13 0 0 1-7 2z"></path></svg></a>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          v5.3
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                          <li><a class="dropdown-item active" href="#">Latest (5.3.x)</a></li>
+                          <li><a class="dropdown-item" href="#">v5.2.3</a></li>
+                          <li><a class="dropdown-item" href="#">v5.1.3</a></li>
+                          <li><a class="dropdown-item" href="#">v5.0.3</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">v4.6x</a></li>
+                          <li><a class="dropdown-item" href="#">v3.4.1</a></li>
+                          <li><a class="dropdown-item" href="#">v2.3.2</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">All versions</a></li>
+                        </ul>
+                      </div>  
+                      <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <use href="#moon-stars-fill">Mode</use>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                          <li><a class="dropdown-item" href="#">Light</a></li>
+                          <li><a class="dropdown-item" href="#">Dark</a></li>
+                          <li><a class="dropdown-item" href="#">Auto</a></li>
+                        </ul>
+                      </div>  
+                </nav>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+  <!-- Split dropend button -->
+  <div class="btn-group dropend drop">
+    <button type="button" class="button-orange btn-secondary">
+        Get Security Updates for Bootstrap 3 & 4  &nbsp;&nbsp;&nbsp; ->
+    </button>
+    
+  </div>
+    <img class="logo" src="data:image/jpeg;base64,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" width="200" height="165" alt="Bootstrap" class="d-none d-sm-block mx-auto mb-3">
+
+    <h1 class="h">Build fast, responsiwe sites <br>
+    with Bootstrap</h1>
+    <p class="lead mb-4">
+        Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
+      </p>
+      <div style="display: flex;gap: 5%;" class="wrapper">
+        <div style="color: #333; width: 20%;" class="input-group tab mb-3">
+            <div  class="input-group-text">
+              <input style="color: #333;"  class="form-check-input tab mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+            </div>
+            <input type="text" class="form-control" placeholder="$ npm i bootstrap@5.3.3">
+        
+          </div>
+          <button type="button" class="btn btn-primary"
+            style="--bs-btn-padding-y: .20rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;padding: 1em; background-color: rgb(49, 42, 123);">
+      Read the docs
+    </button>
+      </div>
+      <div style="display: flex;">
+        <p style="margin-right: 0%;">Curently v5.3.3</p>
+        
+<a href="#" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><ul>Download</ul></a>
+<a href="#" style="margin-right: 0px;" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><ul>All releases</ul></a>     
+</div>
+<div id="carbonads"><span>
+
+    <span class="carbon-wrap">
+        <a href="https://srv.carbonads.net/ads/click/x/GTND427JCAYDV27UCWY4YKQUC6SIVK77FTAD6Z3JCAYI523UCKAIL2QKCVSDL27ICVAITKQNCVBI4K37CTSD42QKC6SI427ECAYDVK3EHJNCLSIZ" class="carbon-img" target="_blank" rel="noopener sponsored">
+            <img src="https://srv.carbonads.net/static/30242/3913207e72f710f619a5492de1f4271d876d8c0f" alt="ads via Carbon" border="0" height="100" width="130" data-no-statview="no" style="max-width: 130px;">
+        </a>
+        <a href="https://srv.carbonads.net/ads/click/x/GTND427JCAYDV27UCWY4YKQUC6SIVK77FTAD6Z3JCAYI523UCKAIL2QKCVSDL27ICVAITKQNCVBI4K37CTSD42QKC6SI427ECAYDVK3EHJNCLSIZ" class="carbon-text" target="_blank" rel="noopener sponsored">
+            Your new development career awaits. Check out the latest listings.
+        </a>
+    </span>
+    <a href="http://carbonads.net/?utm_source=getbootstrapcom&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" class="carbon-poweredby" target="_blank" rel="noopener sponsored">ads via Carbon</a>
+    </span></div>
+</main>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
